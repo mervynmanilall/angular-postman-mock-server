@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "67546dfe-4227-4397-9eb7-477aeb56ae23",
+		"name": "Demo Mock Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6811510"
+	},
+	"item": [
+		{
+			"name": "dinosaurs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/dinosaurs",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"dinosaurs"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/dinosaurs",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dinosaurs"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "[{\"Name\":\"Aardonyx\",\"Description\":\"An early stage in the evolution of sauropods.\"},{\"Name\":\"Abelisaurus\",\"Description\":\"\\\"Abel's lizard\\\" has been reconstructed from a single skull.\"},{\"Name\":\"Abrictosaurus\",\"Description\":\"An early relative of Heterodontosaurus.\"},{\"Name\":\"Abrosaurus\",\"Description\":\"A close Asian relative of Camarasaurus.\"},{\"Name\":\"Abydosaurus\",\"Description\":\"This sauropod's intact skull was discovered in 2010.\"},{\"Name\":\"Acanthopholis\",\"Description\":\"No, it's not a city in Greece.\"},{\"Name\":\"Achelousaurus\",\"Description\":\"Might this have been a growth stage of Pachyrhinosaurus?\"},{\"Name\":\"Achillobator\",\"Description\":\"This fierce raptor was discovered in modern-day Mongolia.\"},{\"Name\":\"Acristavus\",\"Description\":\"This early hadrosaur lacked any ornamentation on its skull.\"},{\"Name\":\"Acrocanthosaurus\",\"Description\":\"The largest meat-eating dinosaur of the early Cretaceous period.\"},{\"Name\":\"Acrotholus\",\"Description\":\"North America's earliest bone-headed dinosaur.\"},{\"Name\":\"Adamantisaurus\",\"Description\":\"This titanosaur was named 50 years after its discovery.\"},{\"Name\":\"Adasaurus\",\"Description\":\"This raptor's hind claws were unusually small.\"},{\"Name\":\"Adeopapposaurus\",\"Description\":\"A close relative of Massospondylus.\"},{\"Name\":\"Aegyptosaurus\",\"Description\":\"Try and guess which country this dinosaur was found in.\"}]"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://358f3cb4-1a9c-40a8-9729-c3c93d1f6dfd.mock.pstmn.io"
+		}
+	]
+}
